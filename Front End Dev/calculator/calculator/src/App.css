@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Helvetica Neue;
+}
+
+h1 {
+  font-size: 2em;
+  color: #eee;
+  display: inline-block;
+  text-align: center;
+}
+
+#calculator-display {
+  background-color: white;
+  height: 10vh;
+  width: 50vh;
+  color: black;
+  vertical-align: text-bottom;
+  margin-bottom: -5vh;
+  font-size: 1em;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#calculator {
+  background-color: black;
+  height: 61vh;
+  width: 50vh;
+  color: black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.btnClear {
+  border-radius: 6px;
+  color: #ffffff;
+  background: red;
+  margin: 1vh 0;
+  height: 8vh;
+  width: 100%;
+}
+
+.btnEqual {
+  border-radius: 6px;
+  color: #ffffff;
+  background: green;
+  margin: 1vh 0;
+  height: 8vh;
+  width: 100%;
+}
+
+.btnNumber {
+  border-radius: 6px;
+  color: #ffffff;
+  background: blue;
+  width: 100%;
+  margin: 1vh 0;
+  height: 8vh;
+}
+
+.btnOperator {
+  border-radius: 6px;
+  color: black;
+  background: yellow;
+  width: 100%;
+  margin: 1vh 0;
+  height: 8vh;
+}
